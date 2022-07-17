@@ -1,0 +1,123 @@
+body {
+    background-color: #2fa8a8;
+    color:#0d383b;
+}
+.heading{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    width:70%;
+    margin:-70px auto 0px auto;
+}
+.greenflag{
+    height: 6rem;
+}
+.name{
+    font-size: 6rem;
+    color:rgb(0, 0, 0);
+}
+.redflag{
+    height: 6rem;
+}
+.dices{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    width:70%;
+    margin:0px auto 0px auto;
+    margin-top: 0px;
+    height:4rem;
+}
+.diceimg{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    width:70%;
+    margin:0px auto 0px auto;
+}
+.player1{
+    font-size: 4rem;
+    font-family: sans-serif;
+    
+}
+.player2{
+    font-size: 4rem;
+    font-family: sans-serif;
+}
+.player1dice{
+    height: 15rem;
+
+}
+.player2dice{
+    height: 15rem;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    width:50%;
+    margin:50px auto 0px auto;
+    color:#2fa8a8;
+
+}
+.player1roll{
+    margin-top:-20px;
+    height:2.7rem;
+    width:10rem;
+    border-radius: 20px;
+    border: none;
+    font-size: 2rem;
+    background-color: #71C9CE;
+    color:rgb(3, 56, 50);
+}
+.player1roll:hover{
+    background-color:#43bbc2 ;
+}
+.player2roll:hover{
+    background-color:#43bbc2 ;
+}
+.player2roll{
+    margin-top:-20px;
+    height:2.7rem;
+    width:10rem;
+    border-radius: 20px;
+    border: none;
+    font-size: 2rem;
+    background-color: #71C9CE;
+    color:rgb(3, 56, 50);
+}
+.results{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    width:70%;
+    margin:0px auto 0px auto;
+}
+.player1results{
+    font-family: serif;
+    font-size: 2.2rem;
+}
+.player2results{
+    font-family: serif;
+    font-size: 2.2rem;
+}
+.again{
+    margin-top:-20px;
+    height:2.7rem;
+    width:15rem;
+    border-radius: 20px;
+    border: none;
+    font-size: 2rem;
+    background-color: #71C9CE;
+    color:rgb(3, 56, 50);
+}
+.again:hover{
+    
+        background-color:#43bbc2 ;
+    
+}
