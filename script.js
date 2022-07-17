@@ -91,6 +91,7 @@ function playagain() {
     document.querySelector('.player1results').innerHTML = "Who is Luckiest ??";
     dice1.src = "images/dice1.png";
     dice2.src = "images/dice1.png";
+    count = 0;
     randomNum2 = Math.round(Math.random() * 6) + 1;
     randomNum1 = Math.round(Math.random() * 6) + 1;
 }
